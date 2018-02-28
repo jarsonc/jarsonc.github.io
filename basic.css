@@ -28,6 +28,17 @@ html, body {
     width: 20%;
 }
 
+.bottom-margin {
+  margin-bottom: 30px;
+}
+
+.big-space {
+  bottom:0;
+  position: fixed;
+  
+}
+
+
 .bg-turquoise{
   background-color: #40E0D0;
   color: #000000;
