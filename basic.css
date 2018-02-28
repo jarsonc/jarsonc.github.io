@@ -1,0 +1,15 @@
+html, body {
+  height: 100%;
+}
+
+#wrap {
+  min-height: 100%;
+}
+
+.footer {
+  position: fixed;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}

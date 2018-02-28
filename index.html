@@ -10,14 +10,40 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+	<style>
+	p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-green {
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+  }
+  .bg-darkblue {
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-white {
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-blackgrey {
+      background-color: #2f2f2f; /* Black Grey */
+      color: #ffffff;
+  }
+	.bg-lightgrey {
+			background-color: #f5f6f7; /* Light Grey */
+			color: #ffffff;
+	}
+	</style>
 	<!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- My CSS -->
+	<link rel="stylesheet" href="basic.css" />
 
 </head>
 <body>
+	<!--navbar-->
 	<nav class="navbar navbar-default">
-	  <div class="container-fluid">
+	  <div class="container-fluid bg-blackgrey">
 	    <div class="navbar-header">
 	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 	        <span class="icon-bar"></span>
@@ -49,10 +75,15 @@
 	  </div>
 	</nav>
 
-<div class="container">
-  <h1>My First Bootstrap Page</h1>
-  <p>This is some text.</p>
-</div>
+	<div class="container-fluid">
+	  <h1>Hello!</h1>
+	  <p>Welcome to my website! Still under construction.</p>
+	</div>
+
+	<!-- Footer -->
+	<footer class="footer container-fluid bg-blackgrey text-center">
+		<h6>Made with care by Jason Cheng</h6>
+	</footer>
 
 </body>
 </html>
